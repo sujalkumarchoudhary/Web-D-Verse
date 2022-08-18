@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Josefin+Sans:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    /**font-family: 'Josefin Sans', sans-serif;**/
+}
+.header{
+    background-color: aliceblue;
+    margin: 21px 100px 0px 100px;
+}
+.navbar{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.navlist{
+    display: flex;  
+    margin: 2px 100px;
+}
+.navlist ul{
+    padding: 5px;
+    margin: 5px;
+}
+.navlist li{   
+    padding: 7px 25px;
+    margin: 12px 20px;
+    list-style: none;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+.navlist li:hover{
+    background-color: wheat;
+}
+.navlist li a{
+     
+    text-decoration: none;
+    color: white;
+}
+.navlist li a:hover{
+    color: black;
+    
+}
+.logo img{
+    width: 79px;
+    height: 56px;
+}
+.btn{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 22px;
+    color: white;
+    background-color: black;
+
+}
+.btn:hover{
+    color: black;
+    background-color: wheat;
+}
+.sec1{
+
+    background-color: aqua;
+    height: 137vh;
+}
+.home{
+    color: brown;
+}
+.img1{
+    position: absolute;
+
+    right: 0px;
+    top: 81px;
+}
+.img2{
+    position: absolute;
+
+    top: 214px;
+    right: 0px;
+
+}
+.img3{
+ 
+    position: absolute;
+    top: 381px;
+
+
+}
+.img4{
+    position: absolute;
+    width: 360px;
+    height: 378px;
+    border-radius: 100%;
+    right: 361px;
+    top: 314px;
+
+}
+.home h2{
+    color: brown;
+    font-size: 67px;
+    position: absolute;
+    top: 423px;
+    left: 249px;
+
+}
+.home span{
+    color: palevioletred;
+    font-size: 46px;
+    position: absolute;
+    top: 544px;
+    left: 325px;
+
+}
+.sec2{
+    border: 2px solid brown;
+
+}
+.blog{
+    border: 2px solid green;
+}
+.blogbox{
+    border: 2px solid red;
+    width: 100%;
+    height: 60vh;
+
+}
+.aboutbox{
+    position: absolute;
+    top: 749px;
+    left: 19%;
+    width: 850px;
+    height: 400px;
+    background-color: #f1f9f7;
+}
+.about{   
+    width: 70%;
+    position: relative;
+    top: 81px;
+    left: 24px;
+    padding: 9px;
+    background-color: beige;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+.aboutbox h2{
+    color: dimgrey;
+    font-size: 45px;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    width: 430px;
+    border-radius: 35px;
+    padding: 7px 2px 2px 35px;
+    background-color: bisque;
+    font-family: 'Josefin Sans', sans-serif;
+}
